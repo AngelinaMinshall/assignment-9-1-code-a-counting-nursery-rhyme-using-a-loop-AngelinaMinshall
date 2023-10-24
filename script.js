@@ -48,18 +48,3 @@ const verse = document.createElement('p');
 verse.textContent = newString;
 list.appendChild(verse)
  
- 
- 
- 
- 
-//   addItem(1)
-
-
-//  const verse = document.createElement('p');
-//  verse.textContent = textString;
-
-
-//  list.appendChild(verse)
-
-
-// addItem(1)
