@@ -16,17 +16,50 @@ I’m still hungry!
 
 */
 
-var word = "sausages";
-    var count = 10;
+// var word = "sausages";
+//     var count = 10;
 
-   while (count > 0) {
-     console.log(count + " " + word + " frying in a pan");
-     console.log("one went pop, one went bam!,");
-     count = count - 2;
+//    while (count > 0) {
+//      console.log(count + " " + word + " frying in a pan");
+//      console.log("one went pop, one went bam!,");
+//      count = count - 2;
 
-   if (count > 0) {
+//    if (count > 0) {
    
-   } else {
-      console.log("No more  " + word + " I'm still hungry");
-     }
- }
+//    } else {
+//       console.log("No more  " + word + " I'm still hungry");
+//      }
+
+
+
+const list = document.querySelector('#list');
+
+for(var sausages = 10; sausages >= 0; sausages--) {
+  let textString = `${ sausages } fat sausages frying in a pan, one went pop and one went bam.`
+  
+  const verse = document.createElement('p');
+  verse.textContent = textString;
+
+  list.appendChild(verse)
+} 
+
+let newString = `No more sausages, I'm still hungry.`
+const verse = document.createElement('p');
+verse.textContent = newString;
+list.appendChild(verse)
+ 
+ 
+ 
+ 
+ 
+//   addItem(1)
+
+
+//  const verse = document.createElement('p');
+//  verse.textContent = textString;
+
+
+//  list.appendChild(verse)
+
+
+// addItem(1)
